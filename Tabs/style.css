@@ -1,0 +1,22 @@
+
+
+.tab{
+    background-color:#e3e3e3;
+    border:1px solid #000;
+  display:flex;
+  }
+  .tab-links{
+    padding:14px 18px;
+    flex-direction:column;
+    border:0;
+  }
+  .tab-links:hover, .tab-links.active{
+    background-color:#555;
+    color:#fff;
+  }
+  .tab-content{
+    padding:10px;
+    border:1px solid #000;
+    border-top:none;
+    display:none;
+  }
