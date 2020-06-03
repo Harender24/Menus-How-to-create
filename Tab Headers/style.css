@@ -1,0 +1,91 @@
+.tab-content{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    background-color:#e4e4e4;
+  padding:45px 18px;
+    display:none;
+  }
+  .tab{
+    background-color:#e6e6e6;
+  /*   padding:20px; */
+    display:flex;  
+  }
+  .tab button{
+    transition:0.3s
+  }
+  .tab-links{
+    padding:20px 30px;
+    width:25%;
+    border:0;
+    cursor:pointer;
+    border:0;
+  }
+  .tab button:focus{
+       outline: 0;
+  }
+  .tab-links:hover{
+  /*   background-color:#e3e3e3; */
+  }
+  .Delhi{
+    background-color:red;
+    color:#fff;
+  }
+  .London{
+    background-color:blue;
+    color:#fff;
+  }
+  .NewYork{
+    background-color:green;
+    color:#fff;
+  }
+  .Paris{
+    background-color:violet;
+    color:#fff;
+  }.tab-content{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  justify-content:center;
+  background-color:#e4e4e4;
+padding:45px 18px;
+  display:none;
+}
+.tab{
+  background-color:#e6e6e6;
+/*   padding:20px; */
+  display:flex;  
+}
+.tab button{
+  transition:0.3s
+}
+.tab-links{
+  padding:20px 30px;
+  width:25%;
+  border:0;
+  cursor:pointer;
+  border:0;
+}
+.tab button:focus{
+     outline: 0;
+}
+.tab-links:hover{
+/*   background-color:#e3e3e3; */
+}
+.Delhi{
+  background-color:red;
+  color:#fff;
+}
+.London{
+  background-color:blue;
+  color:#fff;
+}
+.NewYork{
+  background-color:green;
+  color:#fff;
+}
+.Paris{
+  background-color:violet;
+  color:#fff;
+}
