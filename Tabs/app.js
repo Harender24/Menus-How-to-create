@@ -16,3 +16,4 @@ function openCity(e,cityName){
     e.classList.add('active');
     
   }
+  document.querySelector("#current").click();
